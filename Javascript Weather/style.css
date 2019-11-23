@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(#defcff, #FFFFFF);
+  overflow: hidden
+}
+
+.bg {
+  width: 100%;
+  height: 150vh;
+  overflow: hidden;
+  background: url(bg_sunny.png),
+              url(bg_sunclouds.png),
+              url(bg_storm.gif),
+              url(bg_rain.gif),
+              url(bg_fog.png),
+              url(bg_nightclear.png);
+  background-size: auto 100%;
+}
+
+.maintitle {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  color: #000000;
+}
+
+img {
+  width: 100px;
+  height:100px;
+  margin-bottom: 10px;
+}
+
+header {
+  padding-top: 100px;
+  color: #308296;
+}
+
+input {
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+input section {
+  text-align: left;
+}
+
+#getWeather {
+  margin-top: 10px;
+  background-color: #308296;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+#getWeather:hover {
+  background-color: #494949;
+}
+
+.search2 {
+  margin-top: 10px;
+  background-color: #FFFFFF;
+  color:#000000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search2align {
+  display: flex;
+  justify-content: center;
+}
